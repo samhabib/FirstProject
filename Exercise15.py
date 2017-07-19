@@ -23,7 +23,7 @@ def reverse(test):
 
     if x % 2 == 0:
         for D in range(z):
-            if D < x / 2:
+            if D < int(x / 2):
                 temp = test[D]
                 test[D] = test[z - D]
                 test[z - D] = temp
@@ -41,4 +41,6 @@ def reverse(test):
 
 testString = input("Type in a long string of words and I shall return them in reverse order: ")
 
-print(splitter(testString))
+result = " ".join(splitter(testString))
+
+print(result)
