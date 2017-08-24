@@ -3,7 +3,6 @@ to largest) and another number. The function decides whether or not the given nu
 /(then prints) an appropriate boolean.
 
 Extras:
-
     Use binary search.
 '''
 
