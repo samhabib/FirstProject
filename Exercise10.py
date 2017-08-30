@@ -17,7 +17,6 @@ either choose to use the original directive and read about the set command in Py
  your own and use at least one list comprehension in the solution.
 
 Extra:
-
     Randomly generate two lists to test this
 '''
 
@@ -33,4 +32,3 @@ MergedList = [c for c in a for d in b if c == d ]
 
 MergedList = set(MergedList)
 print(MergedList)
-
